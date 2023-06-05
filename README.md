@@ -2,6 +2,8 @@
 
 Zihan Peng
 
-screenshot:
+Screenshot: 
+[Screenshot](trackJS.JPG)
 
-web page: 
+web page: https://p-z-h.github.io/Lab9_Starter/
+
