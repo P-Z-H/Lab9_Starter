@@ -5,12 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
   <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
   <script>
     window.TrackJS && TrackJS.install({
       token: "d23dc80c12144c63bc59643343b5bc86"
-      // for more configuration options, see https://docs.trackjs.com
     });
   </script>
   <title>Lab 9</title>
@@ -115,7 +114,6 @@
     let count = 0;
     errorBtns[2].addEventListener("click", function () { console.log("Console count: ", (count += 1)); });
     errorBtns[3].addEventListener("click", function () { console.warn("Console warn demo"); });
-    //errorBtns[4].addEventListener("click", function () { console.assert(3 % 2 === 0, "3 is not even"); });
     let number = 3;
     let errorMsg = "the number is not even";
     errorBtns[4].addEventListener("click", function () { console.assert(number % 2 === 0, "%o", { number, errorMsg }); });

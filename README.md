@@ -5,5 +5,5 @@ Zihan Peng
 Screenshot: 
 [Screenshot](trackJS.JPG)
 
-web page: https://p-z-h.github.io/Lab9_Starter/
+Web Page: https://p-z-h.github.io/Lab9_Starter/
 
